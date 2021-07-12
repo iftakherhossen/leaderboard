@@ -1,0 +1,125 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/* Common CSS Start */
+body {
+    margin: 0;font-family: 'Poppins', sans-serif;
+}
+.logo h2 {
+    font-size: 24px; 
+    margin-left: 10px;
+    color: white;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+}
+.section-title {
+    color: #562EFF;
+    margin-top: 3px;
+}
+hr {
+    border: 1px solid #d1d1d1;
+    margin-bottom: 27px;
+}
+/* Common CSS End */
+
+/* Header Style  Start*/
+.nav-bar {
+    background-color: #562EFF;
+    height: 94px;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+
+}
+.logo .logo-img {
+    width: 40.42px;
+    height: 51px;
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+.nav-link .link  {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.nav-link .profile-img {
+    width: 51px;
+    height: 51px;
+    margin-left: 5px;
+}
+/* Header Style End */
+
+
+/* Top Players Style Start */
+
+.top-players {
+    margin-bottom: 30px;
+}
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 25px;
+}
+.player {
+    display: flex;
+}
+.player img {
+    width: 56px;
+    height: 56px;
+}
+.player-name {
+    margin-left: 16px;
+    font-size: 18px;
+}
+/* Top Players Style End */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+.blog {
+    display: flex;
+}
+.thumbnail img {
+    width: 177px;
+    height: 117px;
+}
+.blog-info {
+    margin-left: 16px;
+}
+.blog-info h3 {
+    margin: 0;
+}
+.blog-info p {
+    margin-top: 5px;
+}
+.blog-title {
+    font-size: 20px;
+}
+.blog-author {
+    color: #9f9f9f;
+    font-size: 16px;
+}
+.blog-info a {
+    text-decoration: none;
+    color: #562EFF;
+}
+/* Top Blogs Style Start */
