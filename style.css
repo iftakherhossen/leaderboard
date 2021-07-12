@@ -5,6 +5,7 @@
 /* Common CSS Start */
 body {
     margin: 0;font-family: 'Poppins', sans-serif;
+    background-color: #e1e1e1;
 }
 .logo h2 {
     font-size: 24px; 
@@ -13,13 +14,15 @@ body {
 }
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 .container {
-    background-color: #FFFFFF;
+    background-color: white;
     width: 870px;
     padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 25px;
 }
 .section-title {
     color: #562EFF;
@@ -35,6 +38,7 @@ hr {
 .nav-bar {
     background-color: #562EFF;
     height: 94px;
+    margin-bottom: 25px;
 }
 .nav-container {
     display: flex;
@@ -69,7 +73,6 @@ hr {
 
 
 /* Top Players Style Start */
-
 .top-players {
     margin-bottom: 30px;
 }
@@ -90,6 +93,9 @@ hr {
     font-size: 18px;
 }
 /* Top Players Style End */
+
+
+/* Top Blogs Style Start */
 .blogs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -122,4 +128,46 @@ hr {
     text-decoration: none;
     color: #562EFF;
 }
-/* Top Blogs Style Start */
+/* Top Blogs Style End */
+
+
+/* Top Course Style Start */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+}
+.course {
+    width: 225px;
+}
+.course-banner img {
+    width: 225px;
+    height: 104px;
+}
+.course-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.course-icons .checked {
+    color: #FFC014;
+    font-size: 14px;
+}
+.course-icons p {
+    font-size: 14px;
+}
+.course-icons .course-duration {
+    width: 75px;
+    background-color: #FFE4E8;
+    font-size: 15px;
+    color: #FF4A60;
+    border-radius: 25px;
+    padding: 3px 8px;
+    text-align: center;
+}
+/* Top Course Style End */
+
+
+/* Top Projects Style Start */
+
+/* Top Projects Style আল্ */
